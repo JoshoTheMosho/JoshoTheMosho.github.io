@@ -1,7 +1,7 @@
 # Personal-Website
 Hosts my personal website with projects, a resume, experience etc.
 
-Check it out here: https://joshothemosho.github.io/me/home.html
+Check it out here: https://joshothemosho.github.io/Me/home.html
 
 # Food Matcher
 Website to find you an ideal food type or country using https://www.themealdb.com/api.php
