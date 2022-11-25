@@ -13,12 +13,11 @@ function analyze(json) {
 
 	data = json.meals[0];
 
-	$("#name").html(data.strMeal);
-	$("#category").html(data.strArea + ' ' + data.strCategory);
-	$("#picture").attr("src", data.strMealThumb);
-
 	let theInstructions = data.strInstructions.replace('\r\n\r\n', '</p><p>').replace('\r\n', '</p><p>');
 	theInstructions += '</p>';
+	$("#picture").attr("src", data.strMealThumb);
+	$("#name").html(data.strMeal);
+	$("#category").html(data.strArea + ' ' + data.strCategory);
 	$("#instructions").html(theInstructions);
 
 	displayIngredients(data);
